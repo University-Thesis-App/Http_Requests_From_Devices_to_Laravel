@@ -5,11 +5,11 @@
 #include <ArduinoJson.h>
 
 
-const char *ssid = "Thanos's WLAN";   //REPLACE_WITH_YOUR_SSID
-const char *password = "thanos@1998"; //REPLACE_WITH_YOUR_PASSWORD
+const char *ssid = "_____________";   //REPLACE_WITH_YOUR_SSID
+const char *password = "_____________"; //REPLACE_WITH_YOUR_PASSWORD
 
-String token = "bRPiqP7vWu9XuEHK";
-String serverName = "https://api.iot-dashboard-thesis.space/api/metrics/";
+String token = "_____________"; //RAPLACE_WITH_YOUR_TOKEN
+String serverName = "_____________"; //RAPLACE_WITH_YOUR_BAKEND_URL
 
 unsigned long lastTime = 0;
 unsigned long timerDelay = 5000;
